@@ -1,0 +1,71 @@
+<style media="screen" type="text/css">
+ #backgroundaudio {
+  display: block;
+  position: fixed;
+  bottom: -43px;
+  left: 5px;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+ }
+ #backgroundaudio:hover {
+  bottom: 2;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+ }
+ #backgroundaudio audio {
+  background: #ffffff;
+  padding: 5px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 43px;
+  z-index: 9998;
+ }
+ #backgroundaudio i {
+  font-size: 40px;
+  display: block;
+  background: #ffffff;
+  padding: 5px;
+  width: 50px;
+  float: none;
+  margin-bottom: -1px;
+  z-index: 9999;
+ }
+
+
+nav > ul {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  max-width: 60em;
+}
+nav li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+nav li > a {
+  line-height: 2em;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  -webkit-transition: background-color ease-in-out .15s,color ease-in-out .15s;
+  transition: background-color ease-in-out .15s,color ease-in-out .15s;
+}
+nav li > a:hover,
+nav li > a:active,
+nav li > a.active {
+  background-color: #efefef;
+  color: #222;
+}
