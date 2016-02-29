@@ -37,7 +37,13 @@
   z-index: 9999;
  }
 
-
+header {
+  background: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
 nav > ul {
   margin: 0 auto;
   display: -webkit-box;
@@ -60,12 +66,34 @@ nav li > a {
   text-decoration: none;
   display: block;
   text-align: center;
-  -webkit-transition: background-color ease-in-out .15s,color ease-in-out .15s;
-  transition: background-color ease-in-out .15s,color ease-in-out .15s;
+  -webkit-transition: background-color ease-in-out .20s,color ease-in-out .20s;
+  transition: background-color ease-in-out .20s,color ease-in-out .20s;
 }
 nav li > a:hover,
 nav li > a:active,
 nav li > a.active {
-  background-color: #efefef;
+  background-color: orange;
   color: #222;
+}
+
+section#intro {
+  background-color: rgba(75,75,75,0.95);
+  display: relative; ;
+  padding: 5em;
+}
+section#intro h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 5em;
+  color: white; 
+}
+section#intro h2 {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+html {
+
+background: url(babyshowerbackground.png) no-repeat center fixed;
+background-size: cover;
 }
