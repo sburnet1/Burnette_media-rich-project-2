@@ -1,9 +1,14 @@
 <style media="screen" type="text/css">
- #backgroundaudio {
-  display: block;
+ 
+.footer {
   position: fixed;
-  bottom: -43px;
-  left: 5px;
+  padding: 2em;
+  z-index: 9999;
+}
+#backgroundaudio {
+  position: fixed;
+   left: 5px;
+  z-index: 9999;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
@@ -38,7 +43,7 @@
  }
 
 header {
-  background: black;
+  background: #222;
   position: fixed;
   width: 100%;
   top: 0;
@@ -69,17 +74,28 @@ nav li > a {
   -webkit-transition: background-color ease-in-out .20s,color ease-in-out .20s;
   transition: background-color ease-in-out .20s,color ease-in-out .20s;
 }
-nav li > a:hover,
-nav li > a:active,
+nav li > a:hover {
+  background-color: rgba(219,112,147,1);
+  font-size: 120%;
+}
+nav li > a:active{
+ background-color: rgba(000,229,238,1);
+ color: #000000;
+}
 nav li > a.active {
-  background-color: orange;
+  background-color: rgba(000,229,238,1);
   color: #222;
+}
+nav li > a.visited {
+background-color: #00F5FF;
 }
 
 section#intro {
   background-color: rgba(75,75,75,0.95);
   display: relative; 
   padding: 5em;
+  width: 80%;
+  margin:auto;
 }
 section#intro h1 {
   margin: 0;
@@ -103,11 +119,15 @@ section#mom {
  background-color: rgba(219,112,147,0.98);
  display: relative;
  padding: 1em;
+ width: 70%
+ margin: auto;
 }
 section#dad {
  background-color:rgba(000,229,238,0.98);
  display: relative;
  padding: 1em;
+ width: 70%
+ margin: auto;
 }
 section#baby {
  background-color:rgba(75,75,75,0.95);
@@ -124,16 +144,29 @@ section#signup {
  display: relative;
  padding: 1em;
 }
+section#signup h2{
+ margin:0;
+ text-align: center;
+ font-size: 2em;
+ color: #000;
+padding-bottom: .5em;
+}
+section#signup h3 {
+margin: 0;
+text-align: center;
+font-size: 1em;
+color: #000;
+}
 html {
 
-background: url(babyshowerbackground.png) no-repeat center fixed;
+background-color: #222;
 background-size: cover;
 }
 
 form label, form input {
 	display: block;
 	margin-bottom: 1em;
-	color: #fff;
+	color: #000;
 	text-align: center;
 	margin-right: auto;
     	margin-left: auto;
@@ -153,5 +186,8 @@ form textarea {
     	vertical-align: middle;
    
 }
-
+main {
+width: 70%; 
+margin: auto;
+}
 
