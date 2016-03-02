@@ -1,6 +1,13 @@
 <style media="screen" type="text/css">
  
-
+.intro {
+display: flex;
+direction: column;
+}
+.mom {
+display: flex;
+direction: column;
+}
 footer {
   position: fixed;
    margin-left:auto;
@@ -88,25 +95,45 @@ section#intro h1 {
   margin: 0;
   text-align: center;
   font-size: 8em;
-  color: white; 
+  color:rgba(000,229,238,1); 
 }
 section#intro h2 {
   margin: 0;
   text-align: center;
-  font-size: 3em;
-  color: white;
+  font-size: 2.5em;
+  color:rgba(219,112,147,1);
 }
 section#intro h3 {
   margin:0;
   text-align: center;
-  font-size: 1.5em;
-  color:white;
+  font-size: 2em;
+  color:rgba(000,229,238,1);
+  padding: .25em;
 }
-#a ul li{
- font-size:2em;
+section#intro h4 {
+ margin:0;
+ text-align:center;
+ font-size: 2em;
+ color: rgba(219,112,147,1);
+padding: .25em;
 }
-#b ul li{
- font-size:1em;
+.a li .aDiv {
+ font-size: 1.75em;
+ color: #fff;
+}
+.b li .bDiv {
+ font-size: 1.25em;
+ color: #222;
+ padding: .25em;
+}
+.c li .cDiv {
+font-size: 1.75em;
+color: rgba(000,229,238,1)
+}
+.d li .dDiv {
+font-size: 1.25em;
+color: #fff;
+padding:.25em;
 }
 section#mom {
  background-color: rgba(219,112,147,0.98);
@@ -115,6 +142,10 @@ section#mom {
  width: 70%
  margin: auto;
 }
+section#mom h1{
+font-size: 2.5em;
+color: #fff;
+}
 section#dad {
  background-color:rgba(000,229,238,0.98);
  display: relative;
@@ -122,10 +153,18 @@ section#dad {
  width: 70%
  margin: auto;
 }
+section#dad h1{
+font-size: 2.5em;
+color: #fff;
+}
 section#baby {
  background-color:rgba(75,75,75,0.95);
   display: relative; 
   padding: 1em;
+}
+section#baby h1{
+font-size:2.5em;
+color:rgba(000,229,238,1);
 }
 section#registries{
  background-color:rgba(219,112,147,0.98);
