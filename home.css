@@ -187,15 +187,14 @@ section#dad {
  padding: 1em;
  width: 70%
  margin: auto;
- padding-top: 5em;
- padding-bottom: 20em;
+ padding-top: .25em;
 }
 section#dad img{
 margin: auto;
 width: 35em;
 height:25em;
 display: block;
-padding-top: .5em;
+padding-top: .25em;
 }
 section#dad h1{
 font-size: 2.5em;
@@ -208,7 +207,7 @@ section#baby {
  background-color:rgba(75,75,75,0.95);
   display: relative; 
   padding: 1em;
-  padding-top: 5em;
+  padding-top: 2em;
  padding-bottom: 15em;
 }
 section#baby h1{
