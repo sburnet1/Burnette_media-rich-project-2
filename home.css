@@ -66,6 +66,14 @@ nav li > a.active {
 nav li > a.visited {
 background-color: #00F5FF;
 }
+img {
+margin-left: 16em;
+display: inline-block;
+padding: 3em;
+height: 15em;
+width: 20em;
+text-align: center;
+}
 
 section#intro {
   background-color: rgba(75,75,75,0.95);
@@ -74,8 +82,8 @@ section#intro {
   width: 90%;
   margin:auto;
   margin-top: 2em;
-  padding-top:11.5em;
-  padding-bottom:13em;
+  padding-top:3em;
+  padding-bottom:2em;
   
 }
 section#intro h1 {
@@ -115,18 +123,18 @@ section#intro h5 {
 section#vid  {
  background-color:rgba(000,229,238,0.98);
  display: relative;
- padding: 1em;
+ padding: 5em;
  width: 70%
  margin: auto;
- padding-top:em;
- padding-bottom: em;
+ padding-top:2em;
+ padding-bottom: 15em;
 }
 section#vid video {
  margin: 0 auto;
  display:block;   
 }
 section#vid h1{
-font-size: 2em;
+font-size: 2.5em;
 color: #fff;
 border-style: solid;
 border-width: .05em;
