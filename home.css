@@ -190,6 +190,13 @@ section#dad {
  padding-top: 5em;
  padding-bottom: 20em;
 }
+section#dad img{
+margin: auto;
+width: 35em;
+height:25em;
+display: block;
+padding-top: .5em;
+}
 section#dad h1{
 font-size: 2.5em;
 color: #fff;
