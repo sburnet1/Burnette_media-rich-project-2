@@ -318,7 +318,7 @@ margin: auto;
 
 }
 
-@media all and (min-width: 20em) {
+@media all and (max-width: 48em) {
 
 .intro {
 display: flex;
