@@ -362,7 +362,7 @@ nav li {
           flex: 1;
 }
 nav li > a {
-  line-height: 2em;
+  line-height: 1em;
   color: rgb(000,229,238);
   text-decoration: none;
   display: block;
@@ -389,16 +389,16 @@ background-color: #00F5FF;
 img {
 margin-left: 16em;
 display: inline-block;
-padding: 3em;
-height: 15em;
-width: 20em;
+padding: .5em;
+height: 3em;
+width: 4em;
 text-align: center;
 }
 
 section#intro {
   background-color: rgba(75,75,75,0.95);
   display: relative; 
-  padding:5em;
+  padding:1em;
   width: 90%;
   margin:auto;
   margin-top: 2em;
@@ -409,34 +409,34 @@ section#intro {
 section#intro h1 {
   margin: 0;
   text-align: center;
-  font-size: 8em;
+  font-size: 2em;
   color:rgba(000,229,238,1); 
 }
 section#intro h2 {
   margin: 0;
   text-align: center;
-  font-size: 2.5em;
+  font-size: .5em;
   color:rgba(219,112,147,1);
   padding: 1em;
 }
 section#intro h3 {
   margin:0;
   text-align: center;
-  font-size: 2em;
+  font-size: .25em;
   color:rgba(000,229,238,1);
   padding: .5em;
 }
 section#intro h4 {
  margin:0;
  text-align:center;
- font-size: 2em;
+ font-size: .25em;
  color: rgba(219,112,147,1);
 padding: .5em;
 }
 section#intro h5 {
  margin:0;
  text-align: center;
- font-size: 1em;
+ font-size: .2em;
  color: #fff;
  padding: .5em;
 }
