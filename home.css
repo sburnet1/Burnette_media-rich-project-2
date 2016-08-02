@@ -32,7 +32,7 @@ nav > ul {
   display: flex;
   list-style-type: none;
   padding: 0;
-  max-width: 60em;
+  max-width: 550px;
 }
 nav li {
   -webkit-box-flex: 1;
@@ -51,7 +51,7 @@ nav li > a {
 }
 nav li > a:hover {
   background-color: rgba(219,112,147,1);
-  font-size: 120%;
+  font-size: 100%;
   color: #fff;
 }
 nav li > a:active{
@@ -66,11 +66,11 @@ nav li > a.visited {
 background-color: #00F5FF;
 }
 img {
-margin-left: 16em;
+margin: auto;
 display: inline-block;
 padding: 3em;
-height: 15em;
-width: 20em;
+height: 3em;
+width: 4em;
 text-align: center;
 }
 
@@ -78,7 +78,7 @@ section#intro {
   background-color: rgba(75,75,75,0.95);
   display: relative; 
   padding:2em;
-  width: 90%;
+  width: 85%;
   margin:auto;
   margin-top: 1em;
   padding-top:2em;
@@ -122,14 +122,13 @@ section#intro h5 {
 section#vid  {
  background-color:rgba(000,229,238,0.98);
  display: relative;
- padding: 0em;
- width: 70%
+ width: auto;
  margin: auto;
  padding-top:2em;
  padding-bottom: 4em;
 }
 section#vid video {
- margin: 0 auto;
+ margin: auto;
  display:block;   
 }
 section#vid h1{
