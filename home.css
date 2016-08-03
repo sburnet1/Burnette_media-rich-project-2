@@ -121,13 +121,11 @@ section#intro h5 {
 section#vid  {
  background-color:rgba(000,229,238,0.98);
  display: relative;
- width: 15em;
- margin: 10em;
- 
+ } 
 }
 section#vid video {
  margin: auto;
- display:block;   
+ display:relative;   
 }
 section#vid h1{
 font-size: 1em;
