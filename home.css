@@ -121,6 +121,7 @@ section#intro h5 {
 section#vid  {
  background-color:rgba(000,229,238,0.98);
  display: relative;
+ margin: auto;
  } 
 }
 section#vid video {
