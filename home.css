@@ -68,7 +68,6 @@ background-color: #00F5FF;
 img {
 margin: auto;
 display: inline-block;
-padding: 3em;
 height: 6em;
 width: 8em;
 text-align: center;
@@ -96,7 +95,7 @@ section#intro h2 {
   text-align: center;
   font-size: 1.5em;
   color:rgba(219,112,147,1);
-  padding: 1em;
+  padding: .25em;
 }
 section#intro h3 {
   margin:0;
@@ -122,10 +121,9 @@ section#intro h5 {
 section#vid  {
  background-color:rgba(000,229,238,0.98);
  display: relative;
- width: auto;
- margin: auto;
- padding-top:2em;
- padding-bottom: 4em;
+ width: 15em;
+ margin: 10em;
+ 
 }
 section#vid video {
  margin: auto;
@@ -194,6 +192,12 @@ color: #fff;
 border-style: solid;
 border-width: .05em;
 text-align: center;
+}
+section#dad img{
+margin: auto;
+width: 15em;
+height: 10em;
+display: block;
 }
 section#baby {
  background-color:rgba(75,75,75,0.95);
