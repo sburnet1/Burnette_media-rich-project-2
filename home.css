@@ -1,609 +1,114 @@
 <style media="screen" type="text/css">
- 
-.intro {
-display: flex;
-direction: column;
-}
-.mom {
-display: flex;
-direction: column;
-}
 
-@media screen and (max-width: 550px) {
- #backgroundaudio{
-   
-  display: relative;
-  margin: auto;
-   
- }
+@media only screen and (max-device-width: 480px) {
+
+
+#backgroundaudio {
+	display: relative;
+	margin: auto;
+}
 
 header {
-  background: #222;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 9999;
+	background: #222;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 9999;
 }
-nav > ul {
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  max-width: 550px;
+
+nav>ul {
+	margin: 0 auto;
+	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+ 	list-style-type: none;
+  	padding: 0;
+  	max-width: 480px;
 }
+
 nav li {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+ 	-webkit-box-flex: 1;
+ 	-webkit-flex: 1;
+        -ms-flex: 1;
+         flex: 1;
 }
+
 nav li > a {
-  line-height: 2em;
-  color: rgb(000,229,238);
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  -webkit-transition: background-color ease-in-out .20s,color ease-in-out .20s;
+ 	line-height: 2em;
+ 	color: rgb(000,229,238);
+ 	text-decoration: none;
+ 	display: block;
+ 	text-align: center;
+ 	-webkit-transition: background-color ease-in-out .20s,color ease-in-out .20s;
   transition: background-color ease-in-out .20s,color ease-in-out .20s;
 }
+
 nav li > a:hover {
-  background-color: rgba(219,112,147,1);
-  font-size: 100%;
-  color: #fff;
+	background-color: rgba(219,112,147,1);
+	font-size: 100%;
+	color: #fff;
 }
+
 nav li > a:active{
- background-color: rgba(000,229,238,1);
- color: #000000;
+	background-color: rgba(000,229,238,1);
+	color: #000000;
 }
+
 nav li > a.active {
-  background-color: rgba(000,229,238,1);
-  color: #222;
+	background-color: rgba(000,229,238,1);
+	color: #222;
 }
+
 nav li > a.visited {
-background-color: #00F5FF;
-}
-img {
-margin: auto;
-display: inline-block;
-height: 6em;
-width: 8em;
-text-align: center;
+	background-color: #00F5FF;
 }
 
 section#intro {
-  background-color: rgba(75,75,75,0.95);
-  display: relative; 
-  padding:2em;
-  width: 85%;
-  margin:auto;
-  margin-top: 1em;
-  padding-top:2em;
-  padding-bottom:1em;
-  
+	background-color: rgba(75,75,75,0.95);
+	display: relative;
+	padding:2em;
+	width: 85%;
+	margin:auto;
+	margin-top: 1em;
+	padding-top:2em;
+	padding-bottom:1em;
 }
+
 section#intro h1 {
-  margin: 0;
-  text-align: center;
-  font-size: 3em;
-  color:rgba(000,229,238,1); 
+	margin: 0;
+	text-align: center;
+	font-size: 3em;
+	color:rgba(000,229,238,1);
 }
 section#intro h2 {
-  margin: 0;
-  text-align: center;
-  font-size: 1.5em;
-  color:rgba(219,112,147,1);
-  padding: .25em;
+	margin: 0;
+	text-align: center;
+	font-size: 1.5em;
+	color:rgba(219,112,147,1);
+	padding: .25em;
 }
 section#intro h3 {
-  margin:0;
-  text-align: center;
-  font-size: 1.25em;
-  color:rgba(000,229,238,1);
-  padding: .5em;
+	margin:0;
+	text-align: center;
+	font-size: 1.25em;
+	color:rgba(000,229,238,1);
+	padding: .5em;
 }
 section#intro h4 {
- margin:0;
- text-align:center;
- font-size: 1.25em;
- color: rgba(219,112,147,1);
-padding: .5em;
+	margin:0;
+	text-align:center;
+	font-size: 1.25em;
+	color: rgba(219,112,147,1);
+	padding: .5em;
 }
 section#intro h5 {
- margin:0;
- text-align: center;
- font-size: .5em;
- color: #fff;
- padding: .5em;
-}
-section#vid  {
- background-color:rgba(000,229,238,0.98);
- display: relative;
- margin: auto;
- } 
-}
-section#vid video {
- margin: auto;
- display:relative;   
-}
-section#vid h1{
-font-size: 1em;
-color: #fff;
-border-style: solid;
-border-width: .05em;
-text-align: center;
-}
-.a li .aDiv {
- font-size: 1.75em;
- color: #fff;
-}
-.b li .bDiv {
- font-size: 1.25em;
- color: #222;
- padding: .25em;
-}
-.c li .cDiv {
-font-size: 1.75em;
-color: rgba(000,229,238,1)
-}
-.d li .dDiv {
-font-size: 1.25em;
-color: #fff;
-padding:.25em;
-}
-section#mom {
- background-color: rgba(219,112,147,0.98);
- display: relative;
- padding: 1em;
- width: 70%
- margin: auto;
- padding-top:2em;
- padding-bottom:6em;
-}
-section#mom h1{
-font-size: 2.5em;
-color: #fff;
-text-align: center;
-border-style: solid;
-border-width: .05em;
-}
-section#mom img{
-margin: auto;
-width: 15em;
-height:10em;
-display: block;
-padding-top: .5em;
-}
-section#dad {
- background-color:rgba(000,229,238,0.98);
- display: relative;
- padding: 1em;
- width: 70%
- margin: auto;
- padding-top: 5em;
- padding-bottom: 20em;
-}
-section#dad h1{
-font-size: 2.5em;
-color: #fff;
-border-style: solid;
-border-width: .05em;
-text-align: center;
-}
-section#dad img{
-margin: auto;
-width: 15em;
-height: 10em;
-display: block;
-}
-section#baby {
- background-color:rgba(75,75,75,0.95);
-  display: relative; 
-  padding: 1em;
-  padding-top: 5em;
- padding-bottom: 15em;
-}
-section#baby h1{
-font-size:2.5em;
-color:rgba(000,229,238,1);
-border-style: solid;
-border-width: .05em;
-text-align: center;
-}
-section#registries{
- background-color:rgba(219,112,147,0.98);
- display: relative;
- padding: 1em;
- padding-top: 5em;
- padding-bottom: 20em;
-}
-section#registries h1{
-font-size: 3em;
-color: #fff;
-border-style: solid;
-border-width: .05em;
-text-align: center;
-}
-section#registries h2 {
-font-size:2em;
-text-align: center;
-} 
-section#registries h3 {
-font-size: 1.5em;
-color: #222;
-text-align: center;
-}
-a:link {
- text-decoration: none;
- color:#fff;
-}
-a.visited {
- text-decoration: none;
- color: #fff;
-}
-a:hover{
- text-decoration: none;
- font-size: 150%;
- color: #00F5FF;
-}
-
-section#signup {
- background-color:rgba(000,229,238,0.98);
- display: relative;
- padding: 1em;
- padding-top: 5em;
- padding-bottom: 15em;
-}
-section#signup h2{
- margin:0;
- text-align: center;
- font-size: 3em;
- color: #fff;
-
-border-style: solid;
-border-width: .05;
-}
-section#signup h3 {
-margin: 0;
-text-align: center;
-font-size: 2em;
-color: #fff;
-}
-section#signup h4 {
-font-size: 1.5em;
-}
-html {
-
-background-color: #222;
-background-size: cover;
-}
-
-form label, form input {
-	display: block;
-	margin-bottom: 1em;
-	color: #000;
+	margin:0;
 	text-align: center;
-	margin-right: auto;
-    	margin-left: auto;
-        padding-top:.5em;
-}
-form input, form select {
-    	color: #222;
-}
-form textarea {
-    	width: 50%;
-    	height: 5em;
-    	color: #222;
-   	margin-left: auto;
-   	margin-right: auto;
-   	display: block;
-   	padding-bottom: 1em;
-    	text-align: center;
-    	vertical-align: middle;
-   
+	font-size: .5em;
+	color: #fff;
+	padding: .5em;
 }
 
 
-main {
-width: 85%; 
-margin: auto;
 }
-}
-@media screen and (min-width: 551px) {
-
- #backgroundaudio{
-   
-  display: relative;
-  margin-left:39.5%;
-  margin-right:60.5%;
-  padding-top: 2em;
-   
- }
-
-header {
-  background: #222;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 9999;
-}
-nav > ul {
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  max-width: 60em;
-}
-nav li {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-nav li > a {
-  line-height: 2em;
-  color: rgb(000,229,238);
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  -webkit-transition: background-color ease-in-out .20s,color ease-in-out .20s;
-  transition: background-color ease-in-out .20s,color ease-in-out .20s;
-}
-nav li > a:hover {
-  background-color: rgba(219,112,147,1);
-  font-size: 120%;
-  color: #fff;
-}
-nav li > a:active{
- background-color: rgba(000,229,238,1);
- color: #000000;
-}
-nav li > a.active {
-  background-color: rgba(000,229,238,1);
-  color: #222;
-}
-nav li > a.visited {
-background-color: #00F5FF;
-}
-img {
-margin-left: 16em;
-display: inline-block;
-padding: 3em;
-height: 15em;
-width: 20em;
-text-align: center;
-}
-
-section#intro {
-  background-color: rgba(75,75,75,0.95);
-  display: relative; 
-  padding:5em;
-  width: 90%;
-  margin:auto;
-  margin-top: 2em;
-  padding-top:3em;
-  padding-bottom:2em;
-  
-}
-section#intro h1 {
-  margin: 0;
-  text-align: center;
-  font-size: 8em;
-  color:rgba(000,229,238,1); 
-}
-section#intro h2 {
-  margin: 0;
-  text-align: center;
-  font-size: 2.5em;
-  color:rgba(219,112,147,1);
-  padding: 1em;
-}
-section#intro h3 {
-  margin:0;
-  text-align: center;
-  font-size: 2em;
-  color:rgba(000,229,238,1);
-  padding: .5em;
-}
-section#intro h4 {
- margin:0;
- text-align:center;
- font-size: 2em;
- color: rgba(219,112,147,1);
-padding: .5em;
-}
-section#intro h5 {
- margin:0;
- text-align: center;
- font-size: 1em;
- color: #fff;
- padding: .5em;
-}
-section#vid  {
- background-color:rgba(000,229,238,0.98);
- display: relative;
- padding: 5em;
- width: 70%
- margin: auto;
- padding-top:2em;
- padding-bottom: 15em;
-}
-section#vid video {
- margin: 0 auto;
- display:block;   
-}
-section#vid h1{
-font-size: 2.5em;
-color: #fff;
-border-style: solid;
-border-width: .05em;
-text-align: center;
-}
-.a li .aDiv {
- font-size: 1.75em;
- color: #fff;
-}
-.b li .bDiv {
- font-size: 1.25em;
- color: #222;
- padding: .25em;
-}
-.c li .cDiv {
-font-size: 1.75em;
-color: rgba(000,229,238,1)
-}
-.d li .dDiv {
-font-size: 1.25em;
-color: #fff;
-padding:.25em;
-}
-section#mom {
- background-color: rgba(219,112,147,0.98);
- display: relative;
- padding: 1em;
- width: 70%
- margin: auto;
- padding-top:2em;
- padding-bottom:6em;
-}
-section#mom h1{
-font-size: 2.5em;
-color: #fff;
-text-align: center;
-border-style: solid;
-border-width: .05em;
-}
-section#mom img{
-margin: auto;
-width: 35em;
-height:25em;
-display: block;
-padding-top: .5em;
-}
-section#dad {
- background-color:rgba(000,229,238,0.98);
- display: relative;
- padding: 1em;
- width: 70%
- margin: auto;
- padding-top: 5em;
- padding-bottom: 20em;
-}
-section#dad h1{
-font-size: 2.5em;
-color: #fff;
-border-style: solid;
-border-width: .05em;
-text-align: center;
-}
-
-section#baby {
- background-color:rgba(75,75,75,0.95);
-  display: relative; 
-  padding: 1em;
-  padding-top: 5em;
- padding-bottom: 15em;
-}
-section#baby h1{
-font-size:2.5em;
-color:rgba(000,229,238,1);
-border-style: solid;
-border-width: .05em;
-text-align: center;
-}
-
-section#registries{
- background-color:rgba(219,112,147,0.98);
- display: relative;
- padding: 1em;
- padding-top: 5em;
- padding-bottom: 20em;
-}
-section#registries h1{
-font-size: 3em;
-color: #fff;
-border-style: solid;
-border-width: .05em;
-text-align: center;
-}
-section#registries h2 {
-font-size:2em;
-text-align: center;
-} 
-section#registries h3 {
-font-size: 1.5em;
-color: #222;
-text-align: center;
-}
-a:link {
- text-decoration: none;
- color:#fff;
-}
-a.visited {
- text-decoration: none;
- color: #fff;
-}
-a:hover{
- text-decoration: none;
- font-size: 150%;
- color: #00F5FF;
-}
-
-section#signup {
- background-color:rgba(000,229,238,0.98);
- display: relative;
- padding: 1em;
- padding-top: 5em;
- padding-bottom: 15em;
-}
-section#signup h2{
- margin:0;
- text-align: center;
- font-size: 3em;
- color: #fff;
-
-border-style: solid;
-border-width: .05;
-}
-section#signup h3 {
-margin: 0;
-text-align: center;
-font-size: 2em;
-color: #fff;
-}
-section#signup h4 {
-font-size: 1.5em;
-}
-
-form label, form input {
-	display: block;
-	margin-bottom: 1em;
-	color: #000;
-	text-align: center;
-	margin-right: auto;
-    	margin-left: auto;
-        padding-top:.5em;
-}
-form input, form select {
-    	color: #222;
-}
-form textarea {
-    	width: 50%;
-    	height: 5em;
-    	color: #222;
-   	margin-left: auto;
-   	margin-right: auto;
-   	display: block;
-   	padding-bottom: 1em;
-    	text-align: center;
-    	vertical-align: middle;
-   
-}
-
-}
-
