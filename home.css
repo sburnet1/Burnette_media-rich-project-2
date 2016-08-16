@@ -1,18 +1,24 @@
 <style media="screen" type="text/css">
 
+
+
+
 html {
 
 	background-color: #222;
-	background-size: cover;
+	
+}
+
+main {
+	width: 95%;
+	margin: auto;
 }
 
 
-@media only screen and (max-device-width: 480px) {
-
-
 #backgroundaudio {
-	display: relative;
-	margin: auto;
+	display: block;
+	margin: 0 auto;
+	position: center;
 }
 
 header {
@@ -20,47 +26,44 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 9999;
+  z-index: 100;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #222;
-}
+
 
 li {
     float: center;
 }
 
-li a, .dropbtn {
+.dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
     background-color: rgba(75,75,75,0.95);
+    color: #white;
+    font-size: 125%;
 }
 
 li.dropdown {
     display: inline-block;
 }
 
+
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #222;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-color: white;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+    color: white;
+    padding: .2em;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -77,6 +80,10 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
+
+
 section#intro {
 	background-color: rgba(75,75,75,0.95);
 	display: relative;
@@ -91,27 +98,27 @@ section#intro {
 section#intro h1 {
 	margin: 0;
 	text-align: center;
-	font-size: 3em;
+	font-size: 2.5em;
 	color:rgba(000,229,238,1);
 }
 section#intro h2 {
 	margin: 0;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1em;
 	color:rgba(219,112,147,1);
-	padding: .25em;
+	
 }
 section#intro h3 {
 	margin:0;
 	text-align: center;
-	font-size: 1.25em;
+	font-size: .75em;
 	color:rgba(000,229,238,1);
 	padding: .5em;
 }
 section#intro h4 {
 	margin:0;
 	text-align:center;
-	font-size: 1.25em;
+	font-size: .75em;
 	color: rgba(219,112,147,1);
 	padding: .5em;
 }
@@ -124,4 +131,509 @@ section#intro h5 {
 }
 
 
+
+section#vid  {
+ background-color:rgba(000,229,238,0.98);
+ display: block;
+ margin: auto;
+ padding-top: 1em;
+
+ }
 }
+section#vid video {
+ margin: 0 auto;
+ display:block;   
+}
+section#vid h1{
+font-size: 1.5em;
+color: #fff;
+border-style: solid;
+border-width: .05em;
+text-align: center;
+}
+
+
+.a li .aDiv {
+ font-size: 1em;
+ color: #fff;
+}
+.b li .bDiv {
+ font-size: .75em;
+ color: #fff;
+ padding: .25em;
+}
+.c li .cDiv {
+font-size: 1em;
+color: rgba(000,229,238,1)
+}
+.d li .dDiv {
+font-size: .5em;
+color: #fff;
+padding:.25em;
+}
+
+section#mom {
+ background-color: rgba(219,112,147,0.98);
+ display: relative;
+ padding: 1em;
+ width: 70%
+ margin: auto;
+ padding-top:.5em;
+ padding-bottom:1em;
+}
+section#mom h1{
+font-size: 1.5em;
+color: #fff;
+text-align: center;
+border-style: solid;
+border-width: .05em;
+}
+section#mom h2{
+font-size: 1em;
+ color: #fff;
+}
+section#mom h3{
+ font-size: .75em;
+ color: #fff;
+}
+section#mom img{
+margin: auto;
+width: 12em;
+height:8em;
+display: block;
+padding-top: .5em;
+}
+
+section#dad {
+ background-color:rgba(000,229,238,0.98);
+ display: relative;
+ padding: 1em;
+ width: 70%
+ margin: auto;
+ padding-top: .5em;
+ padding-bottom: 1em;
+}
+section#dad h1{
+font-size: 1.5em;
+color: #fff;
+border-style: solid;
+border-width: .05em;
+text-align: center;
+}
+section#dad h2{
+font-size: 1em;
+ color: #fff;
+}
+section#dad h3{
+ font-size: .75em;
+ color: #fff;
+}
+section#dad img{
+margin: auto;
+width: 12em;
+height: 8em;
+display: block;
+padding-top: .5em;
+}
+
+section#baby {
+ background-color:rgba(75,75,75,0.95);
+  display: relative;
+  padding: 1em;
+  padding-top: .5em;
+ padding-bottom: 1em;
+}
+section#baby h1{
+font-size:1.5em;
+color:rgba(000,229,238,1);
+border-style: solid;
+border-width: .05em;
+text-align: center;
+}
+section#baby h2 {
+font-size: 1em;
+color: rgba(000,229,238,1)
+}
+section#baby h3 {
+font-size: .75em;
+color: #fff;
+}
+section#registries{
+ background-color:rgba(219,112,147,0.98);
+ display: relative;
+ padding: 1em;
+ padding-top: .5em;
+ padding-bottom: 1em;
+}
+section#registries h1{
+font-size: 1.5sem;
+color: #fff;
+border-style: solid;
+border-width: .05em;
+text-align: center;
+}
+section#registries h2 {
+font-size:1em;
+text-align: center;
+}
+section#registries h3 {
+font-size: .75em;
+color: #222;
+text-align: center;
+}
+
+section#signup {
+ background-color:rgba(000,229,238,0.98);
+ display: block;
+ padding: 1em;
+ padding-top: .5em;
+ padding-bottom: 1em;
+}
+section#signup h2{
+ margin:0;
+ text-align: center;
+ font-size: 1.5em;
+ color: #fff;
+
+border-style: solid;
+border-width: .05;
+}
+section#signup h3 {
+margin: 0;
+text-align: center;
+font-size: 1.25em;
+color: #fff;
+}
+section#signup h4 {
+font-size: .75em;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 1em;
+    color: #000;
+    text-align: center;
+    margin-right: auto;
+        margin-left: auto;
+        padding-top:.5em;
+}
+form input, form select {
+        color: #222;
+}
+form textarea {
+        width: 50%;
+        height: 5em;
+        color: #222;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+       padding-bottom: 1em;
+        text-align: center;
+        vertical-align: middle;
+   
+}
+
+
+
+@media only screen and (min-device-width: 480px) {
+
+
+#backgroundaudio {
+	display: block;
+	margin: 0 auto;
+	position: center;
+}
+
+header {
+  background: #222;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+li {
+    float: center;
+}
+
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(75,75,75,0.95);
+    color: #white;
+    font-size: 125%;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-color: white;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: .2em;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+	color: rgb(000,229,238);
+  	text-decoration: none;
+  	display: block;
+  	text-align: center;
+  	-webkit-transition: background-color ease-in-out .20s,color ease-in-out .20s;
+  	transition: background-color ease-in-out .20s,color ease-in-out .20s;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+section#intro {
+	background-color: rgba(75,75,75,0.95);
+	display:block;
+	padding:2em;
+	width: 95%;
+	margin:auto;
+	margin-top: 1em;
+	padding-top:10em;
+	padding-bottom:10em;
+}
+
+section#intro h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 5em;
+	color:rgba(000,229,238,1);
+}
+section#intro h2 {
+	margin: 0;
+	text-align: center;
+	font-size: 3em;
+	color:rgba(219,112,147,1);
+	padding: .25em;
+}
+section#intro h3 {
+	margin:0;
+	text-align: center;
+	font-size: 1.5em;
+	color:rgba(000,229,238,1);
+	padding: .5em;
+}
+section#intro h4 {
+	margin:0;
+	text-align:center;
+	font-size: 1.5em;
+	color: rgba(219,112,147,1);
+	padding: .5em;
+}
+section#intro h5 {
+	margin:0;
+	text-align: center;
+	font-size: 1em;
+	color: #fff;
+	padding: .5em;
+}
+
+
+
+section#vid  {
+ background-color:rgba(000,229,238,0.98);
+ display: relative;
+ margin: auto;
+ padding: 3em;
+ }
+
+section#vid video {
+ margin: 0 auto;
+ display:block;   
+}
+section#vid h1{
+font-size: 3em;
+color: #fff;
+border-style: solid;
+border-width: .05em;
+text-align: center;
+}
+
+
+section#mom {
+ background-color: rgba(219,112,147,0.98);
+ display: relative;
+ padding: 1em;
+ width: 70%
+ margin: auto;
+ padding-top:.5em;
+ padding-bottom:1em;
+}
+section#mom h1{
+font-size: 3em;
+color: #fff;
+text-align: center;
+border-style: solid;
+border-width: .05em;
+}
+section#mom h2{
+font-size: 2em;
+ color: #fff;
+}
+section#mom h3{
+ font-size: 1.25em;
+ color: #fff;
+}
+section#mom img{
+margin: auto;
+width: 24em;
+height:16em;
+display: block;
+padding-top: .5em;
+}
+
+section#dad {
+ background-color:rgba(000,229,238,0.98);
+ display: relative;
+ padding: 1em;
+ width: 70%
+ margin: auto;
+ padding-top: .5em;
+ padding-bottom: 1em;
+}
+section#dad h1{
+font-size: 3em;
+color: #fff;
+border-style: solid;
+border-width: .05em;
+text-align: center;
+}
+section#dad h2{
+font-size: 2em;
+ color: #fff;
+}
+section#dad h3{
+ font-size: 1.25em;
+ color: #fff;
+}
+section#dad img{
+margin: auto;
+width: 24em;
+height: 16em;
+display: block;
+padding-top: .5em;
+}
+
+section#baby {
+ background-color:rgba(75,75,75,0.95);
+  display: relative;
+  
+  padding-top: .5em;
+ padding-bottom: 1em;
+}
+section#baby h1{
+font-size:3em;
+color:rgba(000,229,238,1);
+border-style: solid;
+border-width: .05em;
+text-align: center;
+}
+section#baby h2 {
+font-size: 2em;
+color: rgba(000,229,238,1)
+padding:0;
+}
+
+section#baby h3 {
+font-size: 1.25em;
+color: #fff;
+padding:0;
+}
+
+section#registries{
+ background-color:rgba(219,112,147,0.98);
+ display: relative;
+ padding: 1em;
+ padding-top: 2em;
+ padding-bottom: 8em;
+}
+section#registries h1{
+font-size: 3em;
+color: #fff;
+border-style: solid;
+border-width: .05em;
+text-align: center;
+}
+section#registries h2 {
+font-size:2em;
+text-align: center;
+}
+section#registries h3 {
+font-size: 1.5em;
+color: #222;
+text-align: center;
+}
+
+section#signup {
+ background-color:rgba(000,229,238,0.98);
+ display: block;
+ padding: 1em;
+ padding-top: 2em;
+ padding-bottom: 5em;
+}
+section#signup h2{
+ margin:0;
+ text-align: center;
+ font-size: 3em;
+ color: #fff;
+
+border-style: solid;
+border-width: .05;
+}
+section#signup h3 {
+margin: 0;
+text-align: center;
+font-size: 2em;
+color: #fff;
+}
+section#signup h4 {
+font-size: 2em;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 1em;
+    color: #000;
+    text-align: center;
+    margin-right: auto;
+        margin-left: auto;
+        padding-top:.5em;
+}
+form input, form select {
+        color: #222;
+}
+form textarea {
+        width: 30%;
+        height: 5em;
+        color: #222;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+       padding-bottom: .25em;
+        text-align: center;
+        vertical-align: middle;
+   
+}
+
+}
+
