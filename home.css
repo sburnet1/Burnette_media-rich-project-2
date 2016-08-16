@@ -1,5 +1,12 @@
 <style media="screen" type="text/css">
 
+html {
+
+	background-color: #222;
+	background-size: cover;
+}
+
+
 @media only screen and (max-device-width: 480px) {
 
 
@@ -9,61 +16,67 @@
 }
 
 header {
-	background: #222;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	z-index: 9999;
+  background: #222;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
 }
 
-nav>ul {
-	margin: 0 auto;
-	display: -webkit-box;
-  	display: -webkit-flex;
-  	display: -ms-flexbox;
-  	display: flex;
- 	list-style-type: none;
-  	padding: 0;
-  	max-width: 480px;
+li {
+    float: center;
 }
 
-nav li {
- 	-webkit-box-flex: 1;
- 	-webkit-flex: 1;
-        -ms-flex: 1;
-         flex: 1;
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-nav li > a {
- 	line-height: 2em;
- 	color: rgb(000,229,238);
- 	text-decoration: none;
- 	display: block;
- 	text-align: center;
- 	-webkit-transition: background-color ease-in-out .20s,color ease-in-out .20s;
-  transition: background-color ease-in-out .20s,color ease-in-out .20s;
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(75,75,75,0.95);
 }
 
-nav li > a:hover {
-	background-color: rgba(219,112,147,1);
-	font-size: 100%;
-	color: #fff;
+li.dropdown {
+    display: inline-block;
 }
 
-nav li > a:active{
-	background-color: rgba(000,229,238,1);
-	color: #000000;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-nav li > a.active {
-	background-color: rgba(000,229,238,1);
-	color: #222;
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
 }
 
-nav li > a.visited {
-	background-color: #00F5FF;
-}
+.dropdown-content a:hover {
+	color: rgb(000,229,238);
+  	text-decoration: none;
+  	display: block;
+  	text-align: center;
+  	-webkit-transition: background-color ease-in-out .20s,color ease-in-out .20s;
+  	transition: background-color ease-in-out .20s,color ease-in-out .20s;}
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 section#intro {
 	background-color: rgba(75,75,75,0.95);
 	display: relative;
